@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2",
+  "spritesheet": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\final\\spritesheet-extended.webp",
+  "installed_spritesheet": "C:\\Users\\Saprik\\.codex\\pets\\matrix-codex\\spritesheet.webp",
+  "installed_manifest": "C:\\Users\\Saprik\\.codex\\pets\\matrix-codex\\pet.json",
+  "validation": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\final\\validation-installed.json",
+  "chroma_despill": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\chroma-despill-extended.json",
+  "contact_sheet": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\contact-sheet-extended.png",
+  "direction_sheet": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\look-directions.png",
+  "direction_semantics": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\direction-semantics.json",
+  "blind_direction_validation": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\direction-blind-validation.json",
+  "blind_review_resolution": null,
+  "continuity": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\look-continuity.json",
+  "review": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\qa\\review.json",
+  "standard_repairs": ["jumping", "waiting"],
+  "visual_qa": "pass",
+  "installed_hashes_match_staged_package": true,
+  "source_backup": "C:\\Users\\Saprik\\matrix-codex-pet\\pet-runs\\matrix-codex-v2\\source-backup"
+}

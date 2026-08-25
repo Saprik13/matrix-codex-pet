@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "row": "look-row-9",
+  "reviewed_at_normal_size": true,
+  "directions": [
+    {"direction": "000", "verdict": "pass", "expected": "up", "observed": "both complete eyes aim high and the muzzle pitches upward", "reason": "clear vertical-up cardinal with no neutral/front ambiguity"},
+    {"direction": "022.5", "verdict": "pass", "expected": "up-right", "observed": "eyes remain high while the nose and head begin moving screen-right", "reason": "both vertical-up and horizontal-right cues are visible"},
+    {"direction": "045", "verdict": "pass", "expected": "up-right", "observed": "eyes and muzzle share a balanced up-right turn", "reason": "coherent intermediate step between 022.5 and 067.5"},
+    {"direction": "067.5", "verdict": "pass", "expected": "up-right", "observed": "screen-right head turn dominates while the eyes retain a smaller upward cue", "reason": "advances naturally toward the right cardinal"},
+    {"direction": "090", "verdict": "pass", "expected": "right", "observed": "both eyes, nose, and muzzle point unmistakably toward screen-right", "reason": "clear horizontal-right cardinal"},
+    {"direction": "112.5", "verdict": "pass", "expected": "down-right", "observed": "rightward head turn continues as eyes and muzzle begin pitching down", "reason": "both right and down axes are visible"},
+    {"direction": "135", "verdict": "pass", "expected": "down-right", "observed": "eyes and muzzle form a balanced down-right pose", "reason": "coherent intermediate step with stable identity and anchor"},
+    {"direction": "157.5", "verdict": "pass", "expected": "down-right", "observed": "downward eye and muzzle pitch dominates while a smaller screen-right cue remains", "reason": "one visually even step before the down cardinal"}
+  ],
+  "continuity": {
+    "verdict": "pass",
+    "reason": "the eight registered poses progress clockwise without reversal, scale pop, baseline jump, tail flip, detached parts, or identity drift"
+  }
+}

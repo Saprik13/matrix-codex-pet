@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewer": "independent-final-visual-qa",
+  "review_warnings": [
+    "067.5 has a clear screen-right cue but a subtle up cue; accepted in labeled clockwise-loop context despite the blind vertical-4 swap.",
+    "112.5 has a clear screen-right cue but a subtle down cue; accepted in labeled clockwise-loop context despite the blind vertical-4 swap.",
+    "Continuity hole candidates and local diff/center-shift outliers were visually reviewed; no filled-body seam, snap, identity change, or broken attachment is visible."
+  ],
+  "directions": [
+    {"direction": "000", "verdict": "pass", "expected": "up", "observed": "eyes and muzzle aim vertically up", "reason": "unmistakable up cardinal"},
+    {"direction": "022.5", "verdict": "pass", "expected": "up-right", "observed": "horizontal screen-right and vertical up cues", "reason": "both required axes are visible"},
+    {"direction": "045", "verdict": "pass", "expected": "up-right", "observed": "balanced horizontal screen-right and vertical up turn", "reason": "coherent diagonal"},
+    {"direction": "067.5", "verdict": "warning", "expected": "up-right", "observed": "horizontal screen-right is clear and vertical up is subtle", "reason": "blind vertical-4 swap accepted because labeled normal-size review preserves the intended axes and clockwise progression"},
+    {"direction": "090", "verdict": "pass", "expected": "right", "observed": "nose and eyes point unmistakably screen-right", "reason": "unmistakable right cardinal"},
+    {"direction": "112.5", "verdict": "warning", "expected": "down-right", "observed": "horizontal screen-right is clear and vertical down is subtle", "reason": "blind vertical-4 swap accepted because labeled normal-size review preserves the intended axes and clockwise progression"},
+    {"direction": "135", "verdict": "pass", "expected": "down-right", "observed": "balanced horizontal screen-right and vertical down turn", "reason": "coherent diagonal"},
+    {"direction": "157.5", "verdict": "pass", "expected": "down-right", "observed": "vertical down dominates with a visible horizontal screen-right cue", "reason": "both required axes are visible"},
+    {"direction": "180", "verdict": "pass", "expected": "down", "observed": "eyes and muzzle aim vertically down", "reason": "unmistakable down cardinal"},
+    {"direction": "202.5", "verdict": "pass", "expected": "down-left", "observed": "horizontal screen-left and vertical down cues", "reason": "both required axes are visible"},
+    {"direction": "225", "verdict": "pass", "expected": "down-left", "observed": "balanced horizontal screen-left and vertical down turn", "reason": "coherent diagonal"},
+    {"direction": "247.5", "verdict": "pass", "expected": "down-left", "observed": "horizontal screen-left dominates with a visible vertical down cue", "reason": "both required axes are visible"},
+    {"direction": "270", "verdict": "pass", "expected": "left", "observed": "nose and eyes point unmistakably screen-left", "reason": "unmistakable left cardinal"},
+    {"direction": "292.5", "verdict": "pass", "expected": "up-left", "observed": "horizontal screen-left and vertical up cues", "reason": "both required axes are visible"},
+    {"direction": "315", "verdict": "pass", "expected": "up-left", "observed": "balanced horizontal screen-left and vertical up turn", "reason": "coherent diagonal"},
+    {"direction": "337.5", "verdict": "pass", "expected": "up-left", "observed": "vertical up dominates with a visible horizontal screen-left cue", "reason": "both required axes are visible and the pose closes smoothly toward 000"}
+  ]
+}
